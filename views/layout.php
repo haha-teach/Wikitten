@@ -30,6 +30,22 @@ function e($dirty) {
             <link rel="stylesheet" href="static/css/prettify.css">
             <link rel="stylesheet" href="static/css/codemirror.css">
             <link rel="stylesheet" href="static/css/main.css">
+            <style>
+                #sidebar h2, .breadcrumbs {
+                    background-color: #1abc9c;
+                    border: none;
+                }
+                a {
+                    color: #1abc9c;
+                }
+                a:hover {
+                    color: #7b7b7b;
+                    text-decoration: none;
+                }
+
+            </style>
+
+
         <?php endif; ?>
 		<link rel="stylesheet" href="static/css/custom.css">
 
@@ -37,7 +53,7 @@ function e($dirty) {
         <meta name="keywords" content="<?php echo e(join(',', $page['tags'])) ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
         <?php if(!empty($page['author'])): ?>
             <meta name="author" content="<?php echo e($page['author']) ?>">
         <?php endif; ?>
