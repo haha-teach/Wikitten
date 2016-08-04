@@ -42,7 +42,12 @@ function e($dirty) {
                     color: #7b7b7b;
                     text-decoration: none;
                 }
-
+                p {
+                    font-family: 'Hoefler Text', 'Songti TC', serif;
+                    font-size: 17px;
+                    font-weight: normal;
+                    line-height: 31.994px;
+                }
             </style>
 
 
